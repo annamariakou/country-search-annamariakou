@@ -53,7 +53,7 @@ async function fetchAllCountryData(event) {
         for (let i = 0; i < data.length; i++) {
             countryName.textContent = data[i].name.common;
             capital.textContent = data[i].capital;
-            continent.textContent = data[i].continents; 
+            continent.textContent = data[i].continents.join(', '); 
             flag.textContent = data[i].flag; 
             language.textContent = data[i].languages[0];
             
