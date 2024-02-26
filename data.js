@@ -62,12 +62,20 @@ async function fetchAllCountryData(event) {
                 currency.textContent = currencyName;
             }
 
+            let languages= [];
             for (let languageTypes in data[i].languages) {
                 let languageName = data[i].languages[languageTypes];
-                language.textContent = languageName;
+                languages.push(languageName)
+                language.textContent = languages.join(', ')
             }
         }
     
     };
+
+    //Go back to search page 
+
+    document.getElementById("button").addEventListener("click", function() {
+        window.location.href = 'index.html';
+    });
 
 
