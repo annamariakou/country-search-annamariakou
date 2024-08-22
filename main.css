@@ -46,23 +46,25 @@
     }
 
     .box:nth-of-type(1) .inner-box:nth-of-type(1) {
-        flex: 1;
-        background-color: #F7C7DD;
+        flex: 4;
+        background-color: #BCF5D5;
     }
     
     .box:nth-of-type(1) .inner-box:nth-of-type(2) {
-        flex: 4;
-        background-color: #F7C7DD;
+        flex: 1;
+        background-color: #FCEACB;
+        color: #eba43a
     }
 
     .box:nth-of-type(2) .inner-box:nth-of-type(1) {
-        flex: 4;
+        flex: 1;
         background-color: #F7C7DD;
     }
     
     .box:nth-of-type(2) .inner-box:nth-of-type(2) {
-        flex: 1;
-        background-color: #F7C7DD;
+        flex: 4;
+        background-color: #D5D4F4;
+        color: #8b84e6;
     }
 
     .lemon {
