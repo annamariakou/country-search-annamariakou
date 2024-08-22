@@ -8,4 +8,72 @@
   
     h3 {
         text-align: center;
+
     }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-family: "Lemon", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+
+    .bento-grid { 
+        display: flex;
+        flex: 1;
+        height: 600px;
+        gap: 1em;
+        flex-direction: column;
+        max-width: 700px;
+        margin-top: 20px;
+       
+    }
+
+    .box{ 
+        display: flex;
+        gap: 0.5em;
+    }
+
+    .inner-box {
+        flex:1;
+        border-radius: 1em;
+        overflow: hidden;
+        
+    }
+
+    .box:nth-of-type(1) .inner-box:nth-of-type(1) {
+        flex: 1;
+        background-color: #F7C7DD;
+    }
+    
+    .box:nth-of-type(1) .inner-box:nth-of-type(2) {
+        flex: 4;
+        background-color: #F7C7DD;
+    }
+
+    .box:nth-of-type(2) .inner-box:nth-of-type(1) {
+        flex: 4;
+        background-color: #F7C7DD;
+    }
+    
+    .box:nth-of-type(2) .inner-box:nth-of-type(2) {
+        flex: 1;
+        background-color: #F7C7DD;
+    }
+
+    .lemon {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .center-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
