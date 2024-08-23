@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="mainContainer">
-    <h1 id="countryName">Country Name</h1>
-    <p>Flag: <span id="flag">Flag</span></p>
-    <p>Capital: <span id="capital">Capital</span></p>
-    <p>Continent: <span id="continent">Continent</span></p>
-    <p>Currency: <span id="currency">Currency</span></p>
-    <p>Languages: <span id="language">Language</span></p>
-    <button id="button">Search again</button>
-</div>
+      <div class="box">
+        <div class="inner-box center-content">
+          <div class="most-inner-box center-content">
+            <h1 id="countryName">Country</h1>
+          </div>
+          <div class="most-inner-box center-content">
+            <p><span id="continent">Continent</span></p>
+          </div>
+        </div>
+        <div class="inner-box center-content">
+          <p><span id="flag">Flag</span></p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="inner-box center-content">
+          <p><span id="capital">Capital</span></p>
+          <p>🤑 <span id="currency">Currency</span></p>
+        </div>
+        <div class="inner-box center-content">
+          <p><span id="language">Language</span></p>
+        </div>
+      </div>
+      <div class="box">
+        <button id="button">Search again</button>
+      </div>
+    </div>
     <script src="data.js"></script>
-</body>
+  </body>
 </html>
 
 <span></span>
-
-
