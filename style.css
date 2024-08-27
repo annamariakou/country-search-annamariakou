@@ -35,7 +35,7 @@ body {
 
 .box:nth-of-type(1) .inner-box:nth-of-type(2) {
     flex: 2;
-    background-color: #FCEACB;
+    background-color: #D1E9F6;
     color: #eba43a;
     border-radius: 1em;
 }
@@ -57,30 +57,36 @@ body {
 .box:nth-of-type(2) .inner-box:nth-of-type(1) .most-inner-box:nth-of-type(1) {
     flex: 1;
     background-color: #F7C7DD; 
+    color: #e05a99;
     border-radius: 1em;
 }
 
 .box:nth-of-type(2) .inner-box:nth-of-type(1) .most-inner-box:nth-of-type(2) {
     flex: 1;
     background-color: #F7C7DD; 
+    color: #e05a99;
     border-radius: 1em;
 }
 
 .inner-box:nth-of-type(1) .most-inner-box:nth-of-type(1) {
     flex: 1;
     background-color: #BCF5D5;
+    color: #43bf79;
     border-radius: 1em;
 }
 
 .inner-box:nth-of-type(1) .most-inner-box:nth-of-type(2) {
     flex: 1;
     background-color: #BCF5D5;
+    color: #43bf79;
     border-radius: 1em;
    
 }
 
 .box:nth-of-type(3) {
-    background-color: beige;
+    background-color: #FCEACB;
     border-radius: 1em;
     height: 50px;
 }
+
+
